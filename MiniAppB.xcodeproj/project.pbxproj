@@ -8,11 +8,74 @@
 
 /* Begin PBXBuildFile section */
 		FB86CDB9299DCA9500913EFF /* MiniAppB.h in Headers */ = {isa = PBXBuildFile; fileRef = FB86CDB8299DCA9500913EFF /* MiniAppB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB86CDC7299DCB1400913EFF /* LauncherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB86CDC6299DCB1400913EFF /* LauncherService.swift */; };
+		FB86CDCA299DCBB900913EFF /* MiniAppBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB86CDC9299DCBB900913EFF /* MiniAppBViewController.swift */; };
+		FB86CDCC299DCBD500913EFF /* MiniAppBStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB86CDCB299DCBD500913EFF /* MiniAppBStoryboard.storyboard */; };
+		FB86CE1F299DD1C100913EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB86CE1E299DD1C100913EFF /* AppDelegate.swift */; };
+		FB86CE21299DD1C100913EFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB86CE20299DD1C100913EFF /* SceneDelegate.swift */; };
+		FB86CE23299DD1C100913EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB86CE22299DD1C100913EFF /* ViewController.swift */; };
+		FB86CE26299DD1C100913EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB86CE24299DD1C100913EFF /* Main.storyboard */; };
+		FB86CE28299DD1C300913EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB86CE27299DD1C300913EFF /* Assets.xcassets */; };
+		FB86CE2B299DD1C300913EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB86CE29299DD1C300913EFF /* LaunchScreen.storyboard */; };
+		FB86CE31299DD1F000913EFF /* MiniAppB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CDB5299DCA9500913EFF /* MiniAppB.framework */; };
+		FB86CE32299DD1F000913EFF /* MiniAppB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CDB5299DCA9500913EFF /* MiniAppB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB86CE5D299DDB9E00913EFF /* ConnectionGateWaySAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CE5C299DDB9E00913EFF /* ConnectionGateWaySAT.framework */; };
+		FB86CE5E299DDB9E00913EFF /* ConnectionGateWaySAT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CE5C299DDB9E00913EFF /* ConnectionGateWaySAT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB86CE5F299DDBB400913EFF /* ConnectionGateWaySAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CE5C299DDB9E00913EFF /* ConnectionGateWaySAT.framework */; platformFilter = ios; };
+		FB86CE60299DDBB400913EFF /* ConnectionGateWaySAT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CE5C299DDB9E00913EFF /* ConnectionGateWaySAT.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB86CE33299DD1F000913EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB86CDAC299DCA9500913EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB86CDB4299DCA9500913EFF;
+			remoteInfo = MiniAppB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB86CE35299DD1F000913EFF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB86CE5E299DDB9E00913EFF /* ConnectionGateWaySAT.framework in Embed Frameworks */,
+				FB86CE32299DD1F000913EFF /* MiniAppB.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB86CE51299DD46700913EFF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB86CE60299DDBB400913EFF /* ConnectionGateWaySAT.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FB86CDB5299DCA9500913EFF /* MiniAppB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiniAppB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB86CDB8299DCA9500913EFF /* MiniAppB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiniAppB.h; sourceTree = "<group>"; };
+		FB86CDC6299DCB1400913EFF /* LauncherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherService.swift; sourceTree = "<group>"; };
+		FB86CDC9299DCBB900913EFF /* MiniAppBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppBViewController.swift; sourceTree = "<group>"; };
+		FB86CDCB299DCBD500913EFF /* MiniAppBStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MiniAppBStoryboard.storyboard; sourceTree = "<group>"; };
+		FB86CE1C299DD1C000913EFF /* StanAloneMiniAppB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanAloneMiniAppB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB86CE1E299DD1C100913EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB86CE20299DD1C100913EFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB86CE22299DD1C100913EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB86CE25299DD1C100913EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB86CE27299DD1C300913EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB86CE2A299DD1C300913EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB86CE2C299DD1C300913EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB86CE5C299DDB9E00913EFF /* ConnectionGateWaySAT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConnectionGateWaySAT.framework; path = "../ConnectionGateWaySAT/build/ConnectionGateWaySAT.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/ConnectionGateWaySAT.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -20,6 +83,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB86CE5F299DDBB400913EFF /* ConnectionGateWaySAT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB86CE19299DD1C000913EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB86CE5D299DDB9E00913EFF /* ConnectionGateWaySAT.framework in Frameworks */,
+				FB86CE31299DD1F000913EFF /* MiniAppB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				FB86CDB7299DCA9500913EFF /* MiniAppB */,
+				FB86CE1D299DD1C100913EFF /* StanAloneMiniAppB */,
 				FB86CDB6299DCA9500913EFF /* Products */,
+				FB86CE30299DD1F000913EFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -38,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				FB86CDB5299DCA9500913EFF /* MiniAppB.framework */,
+				FB86CE1C299DD1C000913EFF /* StanAloneMiniAppB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,8 +122,41 @@
 			isa = PBXGroup;
 			children = (
 				FB86CDB8299DCA9500913EFF /* MiniAppB.h */,
+				FB86CDC6299DCB1400913EFF /* LauncherService.swift */,
+				FB86CDC8299DCB8700913EFF /* Scenes */,
 			);
 			path = MiniAppB;
+			sourceTree = "<group>";
+		};
+		FB86CDC8299DCB8700913EFF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FB86CDC9299DCBB900913EFF /* MiniAppBViewController.swift */,
+				FB86CDCB299DCBD500913EFF /* MiniAppBStoryboard.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FB86CE1D299DD1C100913EFF /* StanAloneMiniAppB */ = {
+			isa = PBXGroup;
+			children = (
+				FB86CE1E299DD1C100913EFF /* AppDelegate.swift */,
+				FB86CE20299DD1C100913EFF /* SceneDelegate.swift */,
+				FB86CE22299DD1C100913EFF /* ViewController.swift */,
+				FB86CE24299DD1C100913EFF /* Main.storyboard */,
+				FB86CE27299DD1C300913EFF /* Assets.xcassets */,
+				FB86CE29299DD1C300913EFF /* LaunchScreen.storyboard */,
+				FB86CE2C299DD1C300913EFF /* Info.plist */,
+			);
+			path = StanAloneMiniAppB;
+			sourceTree = "<group>";
+		};
+		FB86CE30299DD1F000913EFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB86CE5C299DDB9E00913EFF /* ConnectionGateWaySAT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +181,7 @@
 				FB86CDB1299DCA9500913EFF /* Sources */,
 				FB86CDB2299DCA9500913EFF /* Frameworks */,
 				FB86CDB3299DCA9500913EFF /* Resources */,
+				FB86CE51299DD46700913EFF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -82,6 +192,25 @@
 			productReference = FB86CDB5299DCA9500913EFF /* MiniAppB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FB86CE1B299DD1C000913EFF /* StanAloneMiniAppB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB86CE2D299DD1C300913EFF /* Build configuration list for PBXNativeTarget "StanAloneMiniAppB" */;
+			buildPhases = (
+				FB86CE18299DD1C000913EFF /* Sources */,
+				FB86CE19299DD1C000913EFF /* Frameworks */,
+				FB86CE1A299DD1C000913EFF /* Resources */,
+				FB86CE35299DD1F000913EFF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB86CE34299DD1F000913EFF /* PBXTargetDependency */,
+			);
+			name = StanAloneMiniAppB;
+			productName = StanAloneMiniAppB;
+			productReference = FB86CE1C299DD1C000913EFF /* StanAloneMiniAppB.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -89,9 +218,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					FB86CDB4299DCA9500913EFF = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					FB86CE1B299DD1C000913EFF = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -110,6 +244,7 @@
 			projectRoot = "";
 			targets = (
 				FB86CDB4299DCA9500913EFF /* MiniAppB */,
+				FB86CE1B299DD1C000913EFF /* StanAloneMiniAppB */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +254,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB86CDCC299DCBD500913EFF /* MiniAppBStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB86CE1A299DD1C000913EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB86CE2B299DD1C300913EFF /* LaunchScreen.storyboard in Resources */,
+				FB86CE28299DD1C300913EFF /* Assets.xcassets in Resources */,
+				FB86CE26299DD1C100913EFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,10 +275,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB86CDCA299DCBB900913EFF /* MiniAppBViewController.swift in Sources */,
+				FB86CDC7299DCB1400913EFF /* LauncherService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB86CE18299DD1C000913EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB86CE23299DD1C100913EFF /* ViewController.swift in Sources */,
+				FB86CE1F299DD1C100913EFF /* AppDelegate.swift in Sources */,
+				FB86CE21299DD1C100913EFF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB86CE34299DD1F000913EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB86CDB4299DCA9500913EFF /* MiniAppB */;
+			targetProxy = FB86CE33299DD1F000913EFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB86CE24299DD1C100913EFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB86CE25299DD1C100913EFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB86CE29299DD1C300913EFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB86CE2A299DD1C300913EFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FB86CDBA299DCA9500913EFF /* Debug */ = {
@@ -258,6 +443,8 @@
 		FB86CDBD299DCA9500913EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -278,6 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +474,8 @@
 		FB86CDBE299DCA9500913EFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -311,6 +501,62 @@
 			};
 			name = Release;
 		};
+		FB86CE2E299DD1C300913EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85JY49Q86S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StanAloneMiniAppB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.papon.StanAloneMiniAppB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB86CE2F299DD1C300913EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85JY49Q86S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StanAloneMiniAppB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.papon.StanAloneMiniAppB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -328,6 +574,15 @@
 			buildConfigurations = (
 				FB86CDBD299DCA9500913EFF /* Debug */,
 				FB86CDBE299DCA9500913EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB86CE2D299DD1C300913EFF /* Build configuration list for PBXNativeTarget "StanAloneMiniAppB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB86CE2E299DD1C300913EFF /* Debug */,
+				FB86CE2F299DD1C300913EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
