@@ -7,15 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB2F4E02299E1F1500EAA524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F4E01299E1F1500EAA524 /* AppDelegate.swift */; };
+		FB2F4E04299E1F1500EAA524 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F4E03299E1F1500EAA524 /* SceneDelegate.swift */; };
+		FB2F4E09299E1F1500EAA524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2F4E07299E1F1500EAA524 /* Main.storyboard */; };
+		FB2F4E0B299E1F1700EAA524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2F4E0A299E1F1700EAA524 /* Assets.xcassets */; };
+		FB2F4E0E299E1F1700EAA524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2F4E0C299E1F1700EAA524 /* LaunchScreen.storyboard */; };
+		FB2F4E13299E1FA900EAA524 /* ConnectionGateWaySAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CE5C299DDB9E00913EFF /* ConnectionGateWaySAT.framework */; };
+		FB2F4E14299E1FA900EAA524 /* ConnectionGateWaySAT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CE5C299DDB9E00913EFF /* ConnectionGateWaySAT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB86CDB9299DCA9500913EFF /* MiniAppB.h in Headers */ = {isa = PBXBuildFile; fileRef = FB86CDB8299DCA9500913EFF /* MiniAppB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB86CDC7299DCB1400913EFF /* LauncherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB86CDC6299DCB1400913EFF /* LauncherService.swift */; };
 		FB86CDCA299DCBB900913EFF /* MiniAppBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB86CDC9299DCBB900913EFF /* MiniAppBViewController.swift */; };
 		FB86CDCC299DCBD500913EFF /* MiniAppBStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB86CDCB299DCBD500913EFF /* MiniAppBStoryboard.storyboard */; };
 		FB86CE5F299DDBB400913EFF /* ConnectionGateWaySAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CE5C299DDB9E00913EFF /* ConnectionGateWaySAT.framework */; platformFilter = ios; };
 		FB86CE60299DDBB400913EFF /* ConnectionGateWaySAT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CE5C299DDB9E00913EFF /* ConnectionGateWaySAT.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FBA774B9299E218500EF3DE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA774B8299E218400EF3DE1 /* ViewController.swift */; };
+		FBA774BA299E23A900EF3DE1 /* MiniAppB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CDB5299DCA9500913EFF /* MiniAppB.framework */; };
+		FBA774BB299E23A900EF3DE1 /* MiniAppB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CDB5299DCA9500913EFF /* MiniAppB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FBA774BC299E23A900EF3DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB86CDAC299DCA9500913EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB86CDB4299DCA9500913EFF;
+			remoteInfo = MiniAppB;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		FB2F4E15299E1FA900EAA524 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FBA774BB299E23A900EF3DE1 /* MiniAppB.framework in Embed Frameworks */,
+				FB2F4E14299E1FA900EAA524 /* ConnectionGateWaySAT.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB86CE51299DD46700913EFF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -30,15 +62,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB2F4DFF299E1F1500EAA524 /* StandAloneMiniAppB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandAloneMiniAppB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2F4E01299E1F1500EAA524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB2F4E03299E1F1500EAA524 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB2F4E08299E1F1500EAA524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB2F4E0A299E1F1700EAA524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB2F4E0D299E1F1700EAA524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB2F4E0F299E1F1700EAA524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB86CDB5299DCA9500913EFF /* MiniAppB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiniAppB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB86CDB8299DCA9500913EFF /* MiniAppB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiniAppB.h; sourceTree = "<group>"; };
 		FB86CDC6299DCB1400913EFF /* LauncherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherService.swift; sourceTree = "<group>"; };
 		FB86CDC9299DCBB900913EFF /* MiniAppBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppBViewController.swift; sourceTree = "<group>"; };
 		FB86CDCB299DCBD500913EFF /* MiniAppBStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MiniAppBStoryboard.storyboard; sourceTree = "<group>"; };
 		FB86CE5C299DDB9E00913EFF /* ConnectionGateWaySAT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConnectionGateWaySAT.framework; path = "../ConnectionGateWaySAT/build/ConnectionGateWaySAT.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/ConnectionGateWaySAT.framework"; sourceTree = "<group>"; };
+		FBA774B8299E218400EF3DE1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FB2F4DFC299E1F1500EAA524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA774BA299E23A900EF3DE1 /* MiniAppB.framework in Frameworks */,
+				FB2F4E13299E1FA900EAA524 /* ConnectionGateWaySAT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB86CDB2299DCA9500913EFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,10 +99,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB2F4E00299E1F1500EAA524 /* StandAloneMiniAppB */ = {
+			isa = PBXGroup;
+			children = (
+				FB2F4E01299E1F1500EAA524 /* AppDelegate.swift */,
+				FB2F4E03299E1F1500EAA524 /* SceneDelegate.swift */,
+				FB2F4E07299E1F1500EAA524 /* Main.storyboard */,
+				FBA774B8299E218400EF3DE1 /* ViewController.swift */,
+				FB2F4E0A299E1F1700EAA524 /* Assets.xcassets */,
+				FB2F4E0C299E1F1700EAA524 /* LaunchScreen.storyboard */,
+				FB2F4E0F299E1F1700EAA524 /* Info.plist */,
+			);
+			path = StandAloneMiniAppB;
+			sourceTree = "<group>";
+		};
 		FB86CDAB299DCA9500913EFF = {
 			isa = PBXGroup;
 			children = (
 				FB86CDB7299DCA9500913EFF /* MiniAppB */,
+				FB2F4E00299E1F1500EAA524 /* StandAloneMiniAppB */,
 				FB86CDB6299DCA9500913EFF /* Products */,
 				FB86CE30299DD1F000913EFF /* Frameworks */,
 			);
@@ -63,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				FB86CDB5299DCA9500913EFF /* MiniAppB.framework */,
+				FB2F4DFF299E1F1500EAA524 /* StandAloneMiniAppB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +173,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		FB2F4DFE299E1F1500EAA524 /* StandAloneMiniAppB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2F4E10299E1F1700EAA524 /* Build configuration list for PBXNativeTarget "StandAloneMiniAppB" */;
+			buildPhases = (
+				FB2F4DFB299E1F1500EAA524 /* Sources */,
+				FB2F4DFC299E1F1500EAA524 /* Frameworks */,
+				FB2F4DFD299E1F1500EAA524 /* Resources */,
+				FB2F4E15299E1FA900EAA524 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBA774BD299E23A900EF3DE1 /* PBXTargetDependency */,
+			);
+			name = StandAloneMiniAppB;
+			productName = StandAloneMiniAppB;
+			productReference = FB2F4DFF299E1F1500EAA524 /* StandAloneMiniAppB.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FB86CDB4299DCA9500913EFF /* MiniAppB */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB86CDBC299DCA9500913EFF /* Build configuration list for PBXNativeTarget "MiniAppB" */;
@@ -137,6 +221,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					FB2F4DFE299E1F1500EAA524 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					FB86CDB4299DCA9500913EFF = {
 						CreatedOnToolsVersion = 14.2;
 						LastSwiftMigration = 1420;
@@ -157,11 +244,22 @@
 			projectRoot = "";
 			targets = (
 				FB86CDB4299DCA9500913EFF /* MiniAppB */,
+				FB2F4DFE299E1F1500EAA524 /* StandAloneMiniAppB */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FB2F4DFD299E1F1500EAA524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2F4E0E299E1F1700EAA524 /* LaunchScreen.storyboard in Resources */,
+				FB2F4E0B299E1F1700EAA524 /* Assets.xcassets in Resources */,
+				FB2F4E09299E1F1500EAA524 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB86CDB3299DCA9500913EFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,6 +271,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FB2F4DFB299E1F1500EAA524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA774B9299E218500EF3DE1 /* ViewController.swift in Sources */,
+				FB2F4E02299E1F1500EAA524 /* AppDelegate.swift in Sources */,
+				FB2F4E04299E1F1500EAA524 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB86CDB1299DCA9500913EFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,7 +292,92 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		FBA774BD299E23A900EF3DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB86CDB4299DCA9500913EFF /* MiniAppB */;
+			targetProxy = FBA774BC299E23A900EF3DE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB2F4E07299E1F1500EAA524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2F4E08299E1F1500EAA524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB2F4E0C299E1F1700EAA524 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2F4E0D299E1F1700EAA524 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		FB2F4E11299E1F1700EAA524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85JY49Q86S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StandAloneMiniAppB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.papon.StandAloneMiniAppB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB2F4E12299E1F1700EAA524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85JY49Q86S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StandAloneMiniAppB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.papon.StandAloneMiniAppB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		FB86CDBA299DCA9500913EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -369,6 +562,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FB2F4E10299E1F1700EAA524 /* Build configuration list for PBXNativeTarget "StandAloneMiniAppB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2F4E11299E1F1700EAA524 /* Debug */,
+				FB2F4E12299E1F1700EAA524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FB86CDAF299DCA9500913EFF /* Build configuration list for PBXProject "MiniAppB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
