@@ -8,11 +8,6 @@
 import UIKit
 
 class MiniAppBViewController: UIViewController {
-
-    class func instantiateFromStoryboard() -> MiniAppBViewController {
-        let storyboard = UIStoryboard(name: "MiniAppBStoryboard", bundle: nil)
-        return storyboard.instantiateViewController(withIdentifier: String(describing: self)) as! MiniAppBViewController
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
